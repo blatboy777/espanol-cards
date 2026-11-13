@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="color-scheme" content="light dark">
+<title>Урок 4: ser, estar, ir, querer</title>
+<style>
+:root{--bg:#f6f3ee;--card:#ffffff;--ink:#231d1a;--mut:#756b63;--acc:#b8372b;--ok:#2d7f55;--bad:#b8372b;--line:#e3dbd1;--ink-on:#ffffff;--okbg:#e5f3ea;--badbg:#f9e6e3;--tip:#fff4d6}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#171311;--card:#221d1a;--ink:#f1eae3;--mut:#a3978c;--acc:#ee7a68;--ok:#5cc28e;--bad:#ee7a68;--line:#3a332e;--ink-on:#171311;--okbg:#1d3326;--badbg:#3a211d;--tip:#3a3220;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.5 -apple-system,system-ui,"Segoe UI",sans-serif;padding-block:18px 60px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+main{max-width:640px;margin:0 auto}
+a{color:var(--acc)}
+h1{font-size:24px;margin:0 0 4px;text-wrap:balance}
+h2{font-size:20px;margin:0 0 10px;text-wrap:balance}
+.sub{color:var(--mut);font-size:14px;margin:0 0 14px}
+.nav{display:flex;gap:8px;overflow-x:auto;padding:4px 0 12px;position:sticky;top:0;background:var(--bg);z-index:5}
+.nav a{white-space:nowrap;text-decoration:none;color:var(--ink);border:1px solid var(--line);background:var(--card);border-radius:999px;padding:7px 13px;font-size:14px}
+section{margin-top:26px;scroll-margin-top:60px}
+.box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin-bottom:12px}
+.tip{background:var(--tip);border-radius:12px;padding:12px 14px;margin:12px 0;font-size:16px}
+.wrap{overflow-x:auto;margin:8px 0}
+table{border-collapse:collapse;width:100%;font-size:16px}
+th,td{border-bottom:1px solid var(--line);padding:7px 7px;text-align:left;white-space:nowrap}
+th{color:var(--mut);font-weight:600;font-size:13px}
+.es{font-weight:600;cursor:pointer}
+.es:hover{color:var(--acc)}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media(max-width:420px){.pair{grid-template-columns:1fr}}
+.q{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin-bottom:10px}
+.qt{font-size:19px;margin-bottom:10px}
+.qt b{color:var(--acc)}
+.opts{display:flex;gap:8px;flex-wrap:wrap}
+button{font:inherit;padding:10px 16px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
+button:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+button.right{background:var(--okbg);border-color:var(--ok);color:var(--ok);font-weight:600}
+button.wrong{background:var(--badbg);border-color:var(--bad);color:var(--bad)}
+.ex{margin-top:10px;font-size:15px;color:var(--mut)}
+.score{display:flex;justify-content:space-between;align-items:center;color:var(--mut);font-size:14px;margin:6px 0 10px}
+.score button{padding:6px 12px;font-size:13px}
+ol.write{padding-left:22px}ol.write li{margin:6px 0}
+.done{background:var(--card);border:2px solid var(--acc);border-radius:14px;padding:16px;margin-top:24px}
+code{font:inherit;background:var(--line);padding:1px 6px;border-radius:6px}
+</style>
+</head>
+<body>
+<main>
+<h1>Урок 4</h1>
+<p class="sub">ser, estar, ir, venir, poner, salir, querer, poder, глаголы с изменением гласной, вопросы ¿cuándo? ¿cómo?, числа 11–29. По учебнику стр. 60–68. Нажмите на любое испанское слово, и оно прозвучит.</p>
+<nav class="nav">
+<a href="#s1">1 ser / estar</a><a href="#s2">2 ir / venir</a><a href="#s3">3 poner, salir, querer, poder</a><a href="#s4">4 e→ie, o→ue</a><a href="#s5">5 Вопросы</a><a href="#s6">6 Числа 11–29</a><a href="#s7">7 Письменно</a>
+</nav>
+
+<section id="s1">
+<h2>1. Ser и estar</h2>
+<div class="box">
+<div class="wrap"><table>
+<tr><th></th><th>ser</th><th>estar</th></tr>
+<tr><td>yo</td><td class="es">soy</td><td class="es">estoy</td></tr>
+<tr><td>tú</td><td class="es">eres</td><td class="es">estás</td></tr>
+<tr><td>él, ella, usted</td><td class="es">es</td><td class="es">está</td></tr>
+<tr><td>nosotros</td><td class="es">somos</td><td class="es">estamos</td></tr>
+<tr><td>vosotros</td><td class="es">sois</td><td class="es">estáis</td></tr>
+<tr><td>ellos, ustedes</td><td class="es">son</td><td class="es">están</td></tr>
+</table></div>
+<div class="pair">
+<div><b>ser</b>: кто и какой <b>всегда</b><br><span class="es">Soy periodista.</span><br><span class="es">Pedro es culto.</span><br><span class="es">Somos rusos.</span></div>
+<div><b>estar</b>: где и как <b>сейчас</b><br><span class="es">Estamos en el instituto.</span><br><span class="es">Estoy ocupado.</span><br><span class="es">¿Cómo está usted?</span></div>
+</div>
+<div class="tip">Обе связки <b>никогда не пропускаются</b>, в отличие от русского («Я журналист» = <i>Soy periodista</i>). Профессия и национальность без артикля. Прилагательное согласуется: <i>Carmen está contenta, ellos están contentos</i>.</div>
+</div>
+<div class="quiz" data-id="q1"></div>
+</section>
+
+<section id="s2">
+<h2>2. Ir и venir</h2>
+<div class="box">
+<div class="wrap"><table>
+<tr><th></th><th>ir (идти, ехать)</th><th>venir (приходить)</th></tr>
+<tr><td>yo</td><td class="es">voy</td><td class="es">vengo</td></tr>
+<tr><td>tú</td><td class="es">vas</td><td class="es">vienes</td></tr>
+<tr><td>él, ella, usted</td><td class="es">va</td><td class="es">viene</td></tr>
+<tr><td>nosotros</td><td class="es">vamos</td><td class="es">venimos</td></tr>
+<tr><td>vosotros</td><td class="es">vais</td><td class="es">venís</td></tr>
+<tr><td>ellos, ustedes</td><td class="es">van</td><td class="es">vienen</td></tr>
+</table></div>
+<p><b>Всегда с предлогом a:</b><br>
+<span class="es">Vamos a la universidad.</span> (куда: a la / al)<br>
+<span class="es">Voy a comer a casa.</span> (зачем: a + инфинитив, «иду обедать»)</p>
+<div class="tip"><i>ir</i> — от говорящего, <i>venir</i> — к говорящему. <b>a + el = al</b>, но a la без изменений.</div>
+</div>
+<div class="quiz" data-id="q2"></div>
+</section>
+
+<section id="s3">
+<h2>3. Poner, salir, querer, poder</h2>
+<div class="box">
+<div class="wrap"><table>
+<tr><th></th><th>poner (класть)</th><th>salir (выходить)</th><th>querer (хотеть)</th><th>poder (мочь)</th></tr>
+<tr><td>yo</td><td class="es">pongo</td><td class="es">salgo</td><td class="es">quiero</td><td class="es">puedo</td></tr>
+<tr><td>tú</td><td class="es">pones</td><td class="es">sales</td><td class="es">quieres</td><td class="es">puedes</td></tr>
+<tr><td>él</td><td class="es">pone</td><td class="es">sale</td><td class="es">quiere</td><td class="es">puede</td></tr>
+<tr><td>nosotros</td><td class="es">ponemos</td><td class="es">salimos</td><td class="es">queremos</td><td class="es">podemos</td></tr>
+<tr><td>vosotros</td><td class="es">ponéis</td><td class="es">salís</td><td class="es">queréis</td><td class="es">podéis</td></tr>
+<tr><td>ellos</td><td class="es">ponen</td><td class="es">salen</td><td class="es">quieren</td><td class="es">pueden</td></tr>
+</table></div>
+<div class="tip">В <i>poner</i> и <i>salir</i> меняется только форма <b>yo</b>: <i>pongo, salgo</i>. В <i>querer</i> и <i>poder</i> меняется гласная корня во всех лицах, <b>кроме nosotros и vosotros</b>. Это правило следующего блока.</div>
+</div>
+<div class="quiz" data-id="q3"></div>
+</section>
+
+<section id="s4">
+<h2>4. Глаголы с изменением гласной</h2>
+<div class="box">
+<div class="pair">
+<div><b>e → ie</b><br>pensar (думать), empezar (начинать), querer<br><span class="es">pienso, piensas, piensa, pensamos, pensáis, piensan</span></div>
+<div><b>o → ue</b><br>volver (возвращаться), contar (рассказывать), poder<br><span class="es">vuelvo, vuelves, vuelve, volvemos, volvéis, vuelven</span></div>
+</div>
+<div class="tip"><b>Правило:</b> гласная меняется только там, где на неё падает ударение. В <i>nosotros</i> и <i>vosotros</i> ударение уходит на окончание (<i>pen-SA-mos</i>), поэтому гласная остаётся прежней. Окончания у них обычные.</div>
+</div>
+<div class="quiz" data-id="q4"></div>
+</section>
+
+<section id="s5">
+<h2>5. Вопросы ¿cuándo? ¿cómo? и другие</h2>
+<div class="box">
+<div class="wrap"><table>
+<tr><th>слово</th><th>значит</th><th>пример</th></tr>
+<tr><td class="es">¿cuándo?</td><td>когда</td><td class="es">¿Cuándo va Gabriel a Petersburgo?</td></tr>
+<tr><td class="es">¿cómo?</td><td>как, какой</td><td class="es">¿Cómo habla Pedro español?</td></tr>
+<tr><td class="es">¿dónde?</td><td>где</td><td class="es">¿Dónde está el libro?</td></tr>
+<tr><td class="es">¿quién?</td><td>кто (имя, должность)</td><td class="es">¿Quién es usted?</td></tr>
+<tr><td class="es">¿qué?</td><td>кто (профессия), что</td><td class="es">¿Qué es usted?</td></tr>
+</table></div>
+</div>
+<div class="quiz" data-id="q5"></div>
+</section>
+
+<section id="s6">
+<h2>6. Числа 11–29</h2>
+<div class="box">
+<div class="wrap"><table>
+<tr><td class="es">11 once</td><td class="es">12 doce</td><td class="es">13 trece</td><td class="es">14 catorce</td><td class="es">15 quince</td></tr>
+<tr><td class="es">16 dieciséis</td><td class="es">17 diecisiete</td><td class="es">18 dieciocho</td><td class="es">19 diecinueve</td><td class="es">20 veinte</td></tr>
+<tr><td class="es">21 veintiuno</td><td class="es">22 veintidós</td><td class="es">23 veintitrés</td><td class="es">24 veinticuatro</td><td class="es">25 veinticinco</td></tr>
+<tr><td class="es">26 veintiséis</td><td class="es">27 veintisiete</td><td class="es">28 veintiocho</td><td class="es">29 veintinueve</td><td></td></tr>
+</table></div>
+<div class="tip">16–19 и 21–29 пишутся слитно. Числа не меняются по роду, кроме 21: <i>veintiún museo</i>, <i>veintiuna revista</i>. Сложение: <i>dos y dos son cuatro</i>, вычитание: <i>cuatro menos dos son dos</i>.</div>
+</div>
+<div class="quiz" data-id="q6"></div>
+</section>
+
+<section id="s7">
+<h2>7. Письменно: пришлите мне в чат</h2>
+<div class="box">
+<p>Здесь нужно писать самой. Ответы отправьте мне в чат, можно несколькими сообщениями. Когда закончите, напишите <b>«всё»</b>.</p>
+<p><b>А. Проспрягайте во всех лицах:</b></p>
+<ol class="write"><li class="es">estar contento</li><li class="es">ir al teatro</li><li class="es">querer ser periodista</li><li class="es">volver a casa temprano</li><li class="es">poner los libros en la mesa</li></ol>
+<p><b>Б. Переведите на испанский:</b></p>
+<ol class="write">
+<li>Вы студент? Да, я студент.</li>
+<li>Кармен и Елена перуанки. Они очень симпатичные девушки.</li>
+<li>Педро в университете? Нет, он дома.</li>
+<li>Как вы поживаете? Хорошо, спасибо. А вы?</li>
+<li>Мы идём в университет.</li>
+<li>Я иду обедать домой.</li>
+<li>Я хочу быть журналисткой.</li>
+<li>Они возвращаются домой рано.</li>
+<li>Когда вы начинаете занятия?</li>
+<li>Сегодня я не могу идти в театр, я занят.</li>
+</ol>
+<p><b>В. Расскажите о себе (5–6 предложений),</b> как в учебнике о Викторе: кто вы, где живёте, чем занимаетесь, куда идёте сегодня, чего хотите. Используйте <i>ser, estar, ir, querer, poder</i> и хотя бы один глагол из блока 4.</p>
+<p class="sub">Слова урока уже добавлены в <a href="index.html">карточки</a>.</p>
+</div>
+</section>
+</main>
+
+<script>
+const Q={
+q1:[
+["Pedro ___ ruso.",["es","está"],0,"Национальность — постоянное свойство: ser."],
+["Pedro ___ contento hoy.",["es","está"],1,"«Доволен сейчас» — временное состояние: estar."],
+["Nosotros ___ en la universidad.",["somos","estamos"],1,"Где находимся: estar."],
+["Carmen y Elena ___ peruanas.",["son","están"],0,"Национальность: ser, форма son."],
+["¿Cómo ___ usted? (как поживаете)",["es","está"],1,"Устойчивое выражение ¿Cómo está usted?"],
+["¿Cómo ___ Bratsk? (какой это город)",["es","está"],0,"Вопрос о свойствах (какой) — ser."],
+["Mis libros ___ sobre la mesa.",["son","están"],1,"Место: estar, форма множественного числа están."],
+["Yo ___ periodista.",["soy","estoy"],0,"Профессия: ser. Артикля нет."],
+["Carmen está ___.",["contento","contenta"],1,"Carmen — женщина, значит contenta."],
+["Pedro y Luis están ___.",["contento","contentos"],1,"Два человека: contentos."]
+],
+q2:[
+["Yo ___ al teatro hoy.",["voy","va","vamos"],0,"yo → voy."],
+["Nosotros ___ a la universidad.",["vamos","vais","van"],0,"nosotros → vamos."],
+["¿Tú ___ a clase todos los días?",["vienes","viene","vengo"],0,"tú → vienes."],
+["Ellos ___ a comer a casa.",["van","vamos","va"],0,"ellos → van."],
+["Voy ___ instituto a pie.",["a la","al","a el"],1,"a + el = al."],
+["Vamos ___ universidad.",["al","a la","de la"],1,"universidad женского рода: a la."],
+["Vengo ___ ver a Pablo.",["a","de","en"],0,"venir a + инфинитив: цель."]
+],
+q3:[
+["Yo ___ los libros sobre la mesa. (poner)",["pongo","pono","pone"],0,"yo → pongo, неправильная форма."],
+["Yo ___ de casa a las ocho. (salir)",["salgo","salo","sale"],0,"yo → salgo."],
+["Nosotros ___ ir al teatro. (poder)",["podemos","puedemos","pueden"],0,"nosotros не меняет гласную: podemos."],
+["Ella ___ ser periodista. (querer)",["quiere","quere","quieres"],0,"él/ella → quiere (e→ie)."],
+["Tú ___ ir con ellos. (poder)",["puedes","podes","puede"],0,"tú → puedes (o→ue)."],
+["Ellos ___ escribir una carta. (querer)",["quieren","queren","quieres"],0,"ellos → quieren (e→ie)."]
+],
+q4:[
+["Yo ___ ser ingeniero. (pensar)",["pienso","penso","pensó"],0,"yo → pienso (e→ie)."],
+["Nosotros ___ a casa temprano. (volver)",["volvemos","vuelvemos","vuelven"],0,"nosotros → volvemos, без изменений."],
+["Ellos ___ una historia. (contar)",["cuentan","contan","cuenta"],0,"ellos → cuentan (o→ue)."],
+["Las clases ___ en septiembre. (empezar)",["empiezan","empezan","empezamos"],0,"Подлежащее — «las clases», значит они: empiezan."],
+["Tú ___ a casa en metro. (volver)",["vuelves","volves","volvés"],0,"tú → vuelves."],
+["¿Vosotros ___ ser diplomáticos? (pensar)",["pensáis","piensáis","piensan"],0,"vosotros без изменения: pensáis."]
+],
+q5:[
+["¿___ vas mañana a Petersburgo?",["Cuándo","Cómo","Dónde"],0,"Когда: ¿cuándo?"],
+["¿___ habla Pedro español? Muy bien.",["Cuándo","Cómo","Quién"],1,"Как: ¿cómo?"],
+["¿___ está el libro? Sobre la mesa.",["Dónde","Cuándo","Cómo"],0,"Где: ¿dónde?"],
+["¿___ es usted? Soy periodista.",["Qué","Quién","Cómo"],0,"Про профессию: ¿qué es usted?"],
+["¿___ es usted? Soy Víctor Garín.",["Qué","Quién","Cuándo"],1,"Про имя: ¿quién es usted?"]
+],
+q6:[
+["12",["doce","trece","diez"],0,"12 = doce."],
+["17",["dieciséis","diecisiete","diecinueve"],1,"17 = diecisiete."],
+["23",["veintidós","veintitrés","veintitres"],1,"23 = veintitrés, с ударением."],
+["15 + 5 = ?",["quince","veinte","veinticinco"],1,"Quince y cinco son veinte."],
+["21 revistas",["veintiún revistas","veintiuna revistas","veinte y uno revistas"],1,"Revista женского рода: veintiuna."]
+]
+};
+function mount(el){
+  const id=el.dataset.id,items=Q[id];let score=0,answered=0;
+  el.innerHTML=`<div class="score"><span></span><button type="button">Заново</button></div><div></div>`;
+  const label=el.firstChild.firstChild,list=el.lastChild;
+  const upd=()=>label.textContent=`Верно: ${score} из ${items.length}`+(answered===items.length?(score===items.length?" — без ошибок":" — ошибки можно перерешать"):"");
+  const build=()=>{
+    score=0;answered=0;list.innerHTML="";upd();
+    items.forEach(([t,opts,a,why])=>{
+      const q=document.createElement("div");q.className="q";
+      q.innerHTML=`<div class="qt">${t.replace("___","<b>___</b>")}</div><div class="opts"></div><div class="ex" hidden></div>`;
+      const box=q.querySelector(".opts"),ex=q.querySelector(".ex");
+      opts.forEach((o,i)=>{
+        const b=document.createElement("button");b.type="button";b.textContent=o;
+        b.onclick=()=>{
+          if(q.dataset.done)return;q.dataset.done=1;answered++;
+          const ok=i===a;if(ok)score++;
+          b.classList.add(ok?"right":"wrong");
+          if(!ok)box.children[a].classList.add("right");
+          ex.hidden=false;ex.textContent=(ok?"Верно. ":"Не так. ")+why;
+          upd();speak(opts[a]);
+        };
+        box.appendChild(b);
+      });
+      list.appendChild(q);
+    });
+  };
+  el.querySelector(".score button").onclick=build;
+  build();
+}
+function speak(t){try{const u=new SpeechSynthesisUtterance(t);u.lang="es-ES";speechSynthesis.cancel();speechSynthesis.speak(u)}catch(e){}}
+document.addEventListener("click",e=>{const t=e.target.closest(".es");if(t)speak(t.textContent.replace(/^\d+\s*/,""))});
+document.querySelectorAll(".quiz").forEach(mount);
+</script>
+</body>
+</html>

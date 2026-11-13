@@ -51,7 +51,7 @@ input{font:inherit;font-size:22px;width:100%;padding:10px;border-radius:10px;bor
 <div class="card" id="card"></div>
 <div class="row" id="btns"></div>
 <div class="foot">
-  <span>Ударения и ñ можно не ставить</span>
+  <span><a href="urok4.html" style="color:var(--acc)">Урок 4</a> · ударения и ñ можно не ставить</span>
   <button id="reset">Сбросить прогресс</button>
 </div>
 </main>
@@ -69,7 +69,13 @@ const WORDS=[
 ["ir","идти, ехать"],["venir","приходить"],["poner","класть, ставить"],["salir","выходить"],["poder","мочь"],
 ["contento","довольный"],["ocupado","занятый"],["sentado","сидящий"],["bien","хорошо"],["simpático","симпатичный"],
 ["culto","образованный"],["el periodista","журналист"],["el ingeniero","инженер"],["ruso","русский"],["cubano","кубинский"],
-["el teatro","театр"],["la universidad","университет"],["hoy","сегодня"],["a pie","пешком"],["en casa","дома"]
+["el teatro","театр"],["la universidad","университет"],["hoy","сегодня"],["a pie","пешком"],["en casa","дома"],
+["empezar","начинать"],["contar","рассказывать; считать"],["volver","возвращаться"],["pensar","думать"],["temprano","рано"],
+["siempre","всегда"],["la tarde","вечер; после обеда"],["el trabajo","работа"],["el museo","музей"],["explicar","объяснять"],
+["visitar","посещать"],["descansar","отдыхать"],["terminar","заканчивать"],["desayunar","завтракать"],["tomar café","пить кофе"],
+["todos los días","каждый день"],["mañana","завтра; утро"],["hasta mañana","до завтра"],["con mucho gusto","с удовольствием"],
+["el señor","господин, сеньор"],["¿por qué?","почему?"],["aquí","здесь"],["pero","но"],["mucho","много"],
+["amable","любезный"],["inteligente","умный"],["extranjero","иностранный"],["la fiesta","праздник"],["la prensa","пресса, газеты"]
 ];
 const KEY="es-cards-v1",INT=[1,2,4,8,16,30],NEW_PER_SESSION=10;
 let S={};try{S=JSON.parse(localStorage.getItem(KEY)||"{}")}catch(e){}
